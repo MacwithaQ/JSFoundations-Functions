@@ -45,24 +45,28 @@ console.log(isOdd(5));
  */
 function oddsSmallerThan(n) {
   // Your code here
-  let tally=1;
-  let count=1;
-    if(n===1){
-    tally = 0;
-    return tally
-    }
-    else{
-    while (n-count>1){
-    n=n-count;
-    count=count+2;
-    tally=tally+1;
-    }
+//   let tally=1;
+//   let count=1;
+//     if(n===1){
+//     tally = 0;
+//     return tally
+//     }
+//     else{
+//     while (n-count>1){
+//     n=n-count;
+//     count=2;
+//     tally=tally+1;
+//     }
     
-    return tally
-  }
-}
+//     return tally
+//   }
+// }
 
-console.log(oddsSmallerThan(6));
+// console.log(oddsSmallerThan(0));
+// console.log(oddsSmallerThan(10));
+// console.log(oddsSmallerThan(11));
+return Math.trunc(n/2)
+}
 
 
 

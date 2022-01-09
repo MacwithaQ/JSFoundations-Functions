@@ -22,11 +22,10 @@ printName();
 function printAge(birthYear){
 
 age = 2022-birthYear;
-return age
-
+console.log(age);
 }
 
-console.log(printAge(1994));
+
 
 /**
  * Task 3:
@@ -55,9 +54,8 @@ else if (lang === "fr"){
 else if (lang === "tr"){
     return `Merhaba ${name}`
 }
-
 else{
-    return name
+    return `Hello ${name}`
 }
 
 }
